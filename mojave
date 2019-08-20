@@ -1,0 +1,302 @@
+#!/usr/bin/python
+# 
+import os
+from datetime import datetime
+
+olddate = 0
+
+os.system('sleep 10')
+
+def set_wallpaper_1():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_1.jpeg");
+    }'
+    """)
+
+def set_wallpaper_2():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_2.jpeg");
+    }'
+    """)
+
+def set_wallpaper_3():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_3.jpeg");
+    }'
+    """)
+
+def set_wallpaper_4():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_4.jpeg");
+    }'
+    """)
+
+def set_wallpaper_5():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_5.jpeg");
+    }'
+    """)
+
+def set_wallpaper_6():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_6.jpeg");
+    }'
+    """)
+
+def set_wallpaper_7():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_7.jpeg");
+    }'
+    """)
+
+def set_wallpaper_8():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_8.jpeg");
+    }'
+    """)
+
+def set_wallpaper_9():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_9.jpeg");
+    }'
+    """)
+
+def set_wallpaper_10():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_10.jpeg");
+    }'
+    """)
+
+def set_wallpaper_11():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_11.jpeg");
+    }'
+    """)
+
+def set_wallpaper_12():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_12.jpeg");
+    }'
+    """)
+
+def set_wallpaper_13():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_13.jpeg");
+    }'
+    """)
+
+
+def set_wallpaper_14():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_14.jpeg");
+    }'
+    """)
+
+def set_wallpaper_15():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_15.jpeg");
+    }'
+    """)
+
+def set_wallpaper_16():
+    os.system("""    
+    dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+    var Desktops = desktops();                                                                                                                       
+    for (i=0;i<Desktops.length;i++) {
+            d = Desktops[i];
+            d.wallpaperPlugin = "org.kde.image";
+            d.currentConfigGroup = Array("Wallpaper",
+                                        "org.kde.image",
+                                        "General");
+            d.writeConfig("Image", "file:///usr/share/mojave_dynamic/mojave_dynamic_16.jpeg");
+    }'
+    """)
+
+while (True):
+    date = datetime.now()
+    date = date.hour
+    if (date == olddate):
+        print('Nothing to do')
+    else:
+        if (date >= 23):
+            set_wallpaper_16()
+            print('Mojave 16 set')
+        elif (date >= 22):
+            set_wallpaper_15() 
+            print('Mojave 15 set') 
+        elif (date >= 21):
+            set_wallpaper_14() 
+            print('Mojave 14 set')
+        elif (date >= 20):
+            set_wallpaper_14() 
+            print('Mojave 14 set')
+        elif (date >= 19):
+            set_wallpaper_13() 
+            print('Mojave 13 set')
+        elif (date >= 18):
+            set_wallpaper_12() 
+            print('Mojave 12 set')
+        elif (date >= 17):
+            set_wallpaper_11() 
+            print('Mojave 11 set')  
+        elif (date >= 16):
+            set_wallpaper_11() 
+            print('Mojave 11 set')
+        elif (date >= 15):
+            set_wallpaper_10() 
+            print('Mojave 10 set')
+        elif (date >= 14):
+            set_wallpaper_9() 
+            print('Mojave 9 set')
+        elif (date >= 13):
+            set_wallpaper_8() 
+            print('Mojave 8 set')
+        elif (date >= 12):
+            set_wallpaper_7() 
+            print('Mojave 7 set')
+        elif (date >= 11):
+            set_wallpaper_6() 
+            print('Mojave 6 set')
+        elif (date >= 10):
+            set_wallpaper_6() 
+            print('Mojave 6 set')
+        elif (date >= 9):
+            set_wallpaper_5() 
+            print('Mojave 5 set')
+        elif (date >= 8):
+            set_wallpaper_4() 
+            print('Mojave 4 set')
+        elif (date >= 7):
+            set_wallpaper_3() 
+            print('Mojave 3 set')
+        elif (date >= 6):
+            set_wallpaper_2() 
+            print('Mojave 2 set')
+        elif (date >= 5):
+            set_wallpaper_1() 
+            print('Mojave 1 set')
+        else:
+            set_wallpaper_16()
+            print('Mojave 16 set')
+    olddate = date
+    os.system('sleep 10')
